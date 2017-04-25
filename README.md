@@ -1,6 +1,6 @@
 # npmtest-autoprefixer
 
-#### test coverage for  [autoprefixer (v6.7.7)](https://github.com/postcss/autoprefixer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-autoprefixer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-autoprefixer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-autoprefixer.svg)](https://travis-ci.org/npmtest/node-npmtest-autoprefixer)
+#### basic test coverage for  [autoprefixer (v6.7.7)](https://github.com/postcss/autoprefixer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-autoprefixer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-autoprefixer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-autoprefixer.svg)](https://travis-ci.org/npmtest/node-npmtest-autoprefixer)
 
 #### Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-autoprefixer/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-autoprefixer/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-autoprefixer/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-autoprefixer/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-autoprefixer/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-autoprefixer/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-autoprefixer/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-autoprefixer/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-autoprefixer/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-autoprefixer/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-autoprefixer/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-autoprefixer/build/coverage.html/index.html)
 
@@ -444,7 +444,8 @@
     "scripts": {
         "test": "gulp"
     },
-    "version": "6.7.7"
+    "version": "6.7.7",
+    "bin": {}
 }
 ```
 
